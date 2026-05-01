@@ -1,20 +1,24 @@
-Traffic Accident Analysis | Análise de Acidentes em Rodovias Federais
-Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre os acidentes de trânsito registrados nas rodovias federais brasileiras. Utilizando a base de dados da Polícia Rodoviária Federal (PRF), buscamos identificar padrões, causas principais e perfis de gravidade para auxiliar na compreensão da segurança viária no país.
+### Traffic Accident Analysis | Análise de Acidentes em Rodovias Federais
 
-📌 Sobre os Dados
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre os acidentes de trânsito registrados nas rodovias federais brasileiras. Utilizando a base de dados da Polícia Rodoviária Federal (PRF), buscamos identificar padrões, causas principais e perfis de gravidade para auxiliar na compreensão da segurança viária no país.
+----
+
+### 📌 Sobre os Dados
 Os dados analisados (baseados no arquivo arquivos_tran202526.csv) compreendem registros detalhados de ocorrências, incluindo:
 
-Localização: UF, BR, KM e Município.
+- Localização: UF, BR, KM e Município.
 
-Temporalidade: Data, horário, dia da semana e fase do dia.
+- Temporalidade: Data, horário, dia da semana e fase do dia.
 
-Circunstâncias: Causa presumida, tipo de acidente, condição meteorológica e traçado da via.
+- Circunstâncias: Causa presumida, tipo de acidente, condição meteorológica e traçado da via.
 
-Gravidade: Quantidade de pessoas envolvidas, feridos leves/graves, ilesos e óbitos.
+- Gravidade: Quantidade de pessoas envolvidas, feridos leves/graves, ilesos e óbitos.
 
-Veículos: Quantidade de veículos envolvidos em cada sinistro.
+- Veículos: Quantidade de veículos envolvidos em cada sinistro.
 
-🚀 Tecnologias Utilizadas
+-----
+
+### 🚀 Tecnologias Utilizadas
 Linguagem: Python 3.10.7
 
 Bibliotecas de Manipulação: Pandas, NumPy
@@ -23,7 +27,9 @@ Visualização de Dados: Matplotlib, Seaborn
 
 Ambiente: Jupyter Notebook (.ipynb)
 
-📊 Principais Objetivos da Análise
+-------
+
+# 📊 Principais Objetivos da Análise
 **Identificação de Causas**: Mapear os fatores mais comuns que levam a acidentes (ex: reação tardia, velocidade incompatível).
 
 **Análise Geográfica**: Verificar quais estados (uf) e rodovias (br) apresentam maior índice de ocorrências.
@@ -32,7 +38,9 @@ Ambiente: Jupyter Notebook (.ipynb)
 
 **Sazonalidade**: Entender o comportamento dos acidentes por dia da semana e horários críticos.
 
-📂 Estrutura do Repositório
+--------
+
+# 📂 Estrutura do Repositório
 CD_Equipe4.ipynb: Notebook principal contendo todo o pipeline de limpeza, análise e visualização.
 
 arquivos_tran202526.csv: Conjunto de dados utilizado no projeto.
@@ -47,9 +55,9 @@ README.md: Documentação do projeto.
    ```
 
 Passo 1: Clone o repositório:
-`bash
-  git clone https://github.com/arthlz/Traffic-Accident-Analysis.git
-`
+   ```bash
+     git clone https://github.com/arthlz/Traffic-Accident-Analysis.git
+   ```
    
 2. Acesse a pasta do projeto
    ```pasta
