@@ -44,20 +44,23 @@ Ambiente: Jupyter Notebook (.ipynb)
 --------
 
 # 📂 Estrutura do Repositório
-CD_Equipe4.ipynb: Notebook principal contendo todo o pipeline de limpeza, análise e visualização.
+EDA.ipynb: Notebook principal contendo todo o pipeline de limpeza, análise e visualização.
 
 arquivos_tran202526.csv: Conjunto de dados utilizado no projeto.
 
 README.md: Documentação do projeto.
 
-🛠️ Como Executar:
+# 🛠️ Como Executar:
 
-# Reprodutibilidade(Recomendo o uso do vscode como IDE):
+Reprodutibilidade(Recomendo o uso do vscode como IDE):
+
+Entre no google drive e baixe o arquivo 🔗 [**arquivos_tran202526.csv**](https://drive.google.com/drive/folders/1pmPnVxdiHsBYCsrTSXWqax1NPrWmtIXD?usp=sharing)
+
    ```
    Todo o código foi produzido e rodou localmente no python 3.10.7
    ```
 
-Passo 1: Clone o repositório:
+1. Clone o repositório:
    ```bash
      git clone https://github.com/arthlz/Traffic-Accident-Analysis.git
    ```
