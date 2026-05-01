@@ -1,6 +1,9 @@
-### Traffic Accident Analysis | Análise de Acidentes em Rodovias Federais
+### 🚗 Traffic Accident Analysis | Análise de Acidentes em Rodovias Federais
+
+-----
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre os acidentes de trânsito registrados nas rodovias federais brasileiras. Utilizando a base de dados da Polícia Rodoviária Federal (PRF), buscamos identificar padrões, causas principais e perfis de gravidade para auxiliar na compreensão da segurança viária no país.
+
 ----
 
 ### 📌 Sobre os Dados
