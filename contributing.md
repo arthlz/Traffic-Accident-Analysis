@@ -1,6 +1,6 @@
-# Guia de Contribuição - projetoNexus
+# Guia de Contribuição - Traffic-Accident-Analysis
 
-Este documento define as diretrizes para contribuir com o desenvolvimento do **projetoNexus**. A adesão a estas regras garante a organização do repositório, a qualidade do código e a eficiência do trabalho em equipe.
+Este documento define as diretrizes para contribuir com o desenvolvimento. A adesão a estas regras garante a organização do repositório, a qualidade do código e a eficiência do trabalho em equipe.
 
 ## 1. Estrutura de Branches
 
@@ -26,27 +26,7 @@ Tipos mais comuns utilizados no repositório:
 *   `chore`: Atualizações de tarefas de build, configuração de pacotes ou dependências.
 *   `style`: Formatação de código (espaçamento, ponto e vírgula ausente, etc.) que não afeta a lógica.
 
-*Exemplo:* `feat: integra endpoint de cadastro de usuários com o backend em Python`
-
-## 3. Padrões de Código e Arquitetura
-
-O repositório é dividido claramente entre o frontend e o backend. Siga as práticas recomendadas para cada ambiente:
-
-### Backend (Python)
-*   Siga estritamente as diretrizes de formatação da PEP 8.
-*   Utilize *type hints* nas assinaturas de funções e métodos para garantir clareza e facilitar a manutenção.
-*   Documente funções complexas utilizando docstrings apropriadas.
-
-### Frontend (TypeScript)
-*   Mantenha a tipagem estrita. O uso de `any` deve ser evitado ao máximo.
-*   Componentize as interfaces visando a reutilização lógica de código.
-*   Certifique-se de aplicar o linting e a formatação padrão do projeto antes de comitar.
-
-### Integração de Dados (Supabase)
-*   Qualquer alteração, criação de nova tabela ou modificação de políticas de segurança (RLS) no banco de dados deve ser devidamente documentada.
-*   **Atenção:** Nunca exponha chaves secretas, tokens de API ou credenciais do Supabase no código-fonte. Utilize exclusivametne arquivos de variáveis de ambiente (`.env`), garantindo que estejam listados no `.gitignore`.
-
-## 4. Processo de Pull Request (PR)
+## 3. Processo de Pull Request (PR)
 
 Todo código desenvolvido deve passar por revisão antes de ser mesclado à branch principal. Para abrir um PR de forma adequada:
 
