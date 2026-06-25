@@ -71,7 +71,7 @@ Entre no google drive e baixe o arquivo 🔗 [**arquivos_tran202526.csv**](https
    ```
 
 3. No terminal, crie um ambiente virtual e ative-o
-   ```Venv
+   ```bash
     python -m venv venv <- Cria o ambiente virtual
    
     - Dispositivos Windows:
