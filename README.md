@@ -24,6 +24,7 @@ O projeto está estruturado em uma sequência lógica de notebooks dentro da pas
 │   ├── 2. Encoding.ipynb                     # Engenharia de Features e Codificações
 │   ├── 3. Feature_Selection.ipynb            # Seleção de Atributos (MI & RF)
 │   └── 4. Balanceamento_de_Dados.ipynb       # Resampling, Pré-processamento e Modelagem
+├── Reports/                                  # Relatórios dos objetivos e marcos de cada Notebook
 ├── README.md                                 # Documentação principal
 └── contributing.md                           # Guia de contribuição da equipe
 ```
@@ -47,6 +48,35 @@ O projeto está estruturado em uma sequência lógica de notebooks dentro da pas
 * **Tratamento do Desbalanceamento**: Implementação de estratégias de amostragem para lidar com o desbalanceamento severo da variável alvo (`classificacao_acidente`), visando maximizar a sensibilidade do modelo.  
 * **Transformação de Distribuições**: Uso do `QuantileTransformer` para suavizar e uniformizar caudas longas e assimetrias brutas das variáveis numéricas.  
 * **Modelagem Preditiva**: Otimização do classificador `KNeighborsClassifier` com pesos ajustados por distância.
+
+## 📊 Análise Gráfica e Insights (Exemplos)
+
+> **Os padrões identificados**: maior risco no amanhecer, concentração de causas comportamentais, criticidade de trechos em curvas e declives, e desbalanceamento de classes, fornecem subsídios tanto para a engenharia de features quanto para a formulação de estratégias de pré-processamento.
+
+### Acidentes por Fase do Dia
+
+![dia_semana](Reports/Images/image.png)
+
+- A análise cruzando a fase do dia com número de mortos revela que o período do
+amanhecer (madrugada) apresenta a maior taxa de mortalidade relativa entre os acidentes registrados.
+
+### Principais Causas de Acidente
+
+![causas](Reports/Images/image2.png)
+
+- O gráfico das dez principais causas de acidentes revela que causas comportamentais, falta de atenção, velocidade incompatível e ultrapassagem indevida dominam amplamente o ranking, representando conjuntamente a grande maioria dos registros.
+
+### Trechos das Ocorrências
+
+![trechos](Reports/Images/image3.png)
+
+-  O traçado 'Reta' concentra a maior parte dos acidentes; no entanto, em termos de gravidade relativa, trechos em curvas e declives apresentam taxas mais elevadas de vítimas fatais.
+
+### Classes
+
+![classes](Reports/Images/image4.png)
+
+- O desbalanceamento acentuado, apenas 7,12% dos registros classificados como fatais, representa um risco direto para a modelagem: um classificador sem tratamento tenderá a ignorar a classe minoritária, justamente a mais crítica.
 
 ## 🛠️ Como Executar
 
